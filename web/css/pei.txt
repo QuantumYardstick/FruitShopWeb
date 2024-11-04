@@ -1,0 +1,21 @@
+#a0a5a8
+<style>
+        .box {
+            position: relative;
+            z-index: 1000;
+        }
+
+        .container{
+            position: relative;
+            width: 400px;
+            min-height: 400px;
+            background: #fff;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-self: center;
+        }
+    </style>
+    <div class="box" style="border: 1px black;">
+        <div class="container">A</div>
+    </div>

@@ -1,0 +1,101 @@
+* {
+    /* 将所有元素的边距和内边距设置为0 */
+    margin: 0;
+    padding: 0;
+    /* 设置元素的盒子模型为 border-box */
+    box-sizing: border-box;
+    /* 防止文本被选中 */
+    user-select: none;
+}
+
+body {
+    /* 设置页面宽度为100%，高度为视口高度 */
+    width: 100%;
+    height: 100vh;
+    /*使用 flex 布局，水平和垂直居中内容 */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* 设置字体大小 */
+    font-size: 15px;
+    /* 设置背景颜色和文字颜色 */
+    /* background-color: #ecf0f3; */
+    color: #01070b;
+    /* 设置背景颜色 */
+    /*background-image: url(../imgs/10.jpg); !* 替换为您自己的背景图片URL *!*/
+    /*background-size: cover; !* 设置背景图片的大小为填充 *!*/
+    /*background-position: center; !* 设置背景图片的位置居中 *!*/
+    /*background-repeat: no-repeat; !* 设置背景图片不重复 *!*/
+}
+
+/* 定义 edit_box 类，用于设置页面的容器样式 */
+.edit_box {
+    margin: 30px;
+    width: 55%;
+    min-width: 1000px;
+    min-height: 600px;
+    /* 设置容器的宽度、最小宽度和高度 */
+    height: 100%;
+    /* 设置内边距 */
+    padding: 25px;
+    /* 设置背景颜色 */
+    background-color: #ecf0f3;
+    /* 设置阴影效果 */
+    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    /* 设置圆角边框 */
+    border-radius: 12px;
+    /* 隐藏超出容器范围的内容 */
+    overflow: hidden;
+}
+
+/* 定义 form_input 类，用于设置表单输入框样式 */
+.editbox {
+    /* 设置输入框的宽度、高度、内边距、字体大小和字间距 */
+    width: 350px;
+    height: 40px;
+    margin: 5px;
+    padding-left: 25px;
+    font-size: 13px;
+    letter-spacing: 0.15px;
+    /* 设置无边框、无轮廓 */
+    border: none;
+    outline: none;
+    /* 设置背景颜色 */
+    background-color: #ecf0f3;
+    /* 设置过渡效果 */
+    transition: 0.25s ease;
+    /* 设置圆角 */
+    border-radius: 8px;
+    /* 设置内阴影和外阴影 */
+    box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+}
+
+.title {
+    /* 设置标题的字体大小、粗细、行高、颜色和字间距 */
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 3;
+    color: #181818;
+    letter-spacing: 10px;
+    margin-left: 30px;
+}
+
+/* 定义 button 类，用于设置按钮样式 */
+.button1 {
+    /* 设置按钮的宽度、高度、圆角、字体粗细、字体大小和字间距 */
+    width: 350px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.15px;
+    /* 设置背景颜色和文字颜色 */
+    background-color: #4B70E2;
+    color: #f9f9f9;
+    /* 设置阴影效果 */
+    box-shadow: 8px 8px 16px #d1d9e6, -8px -8px 16px #f9f9f9;
+    /* 设置无边框和无轮廓 */
+    border: none;
+    outline: none;
+}
